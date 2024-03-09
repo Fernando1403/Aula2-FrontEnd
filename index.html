@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </ul>
+        <h2>Modo de Preparo</h2>
+        <ol>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos laudantium suscipit illum enim veritatis nesciunt iusto impedit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi a rerum eum earum assumenda! Incidunt omnis dolores nulla quod, illum optio cumque molestiae dignissimos itaque?</li>
+        </ol>
+    </div>
+
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum quo repudiandae corporis animi nisi similique!
+        </dd>
+        <dt><b>Navegador</b></dt>
+        <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sint, doloremque sapiente a saepe quis id numquam hic! Quasi!
+        </dd>
+    </dl>
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Cabeçalho</th>
+        </tr>
+        <tr>
+            <td>Linha 1 - Coluna 1</td>
+            <td>Linha 1 - Coluna 2</td>
+            <td>Linha 1 - Coluna 3</td>
+        </tr>
+        <tr>
+            <td>Linha 2 - Coluna 1</td>
+            <td>Linha 2 - Coluna 2</td>
+            <td>Linha 2 - Coluna 3</td>
+        </tr>
+    </table>
+    
+            <fieldset>
+                <legend>Formulário</legend>
+                <h1>Contato</h1>
+                <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+                <form action="enviar.php" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                    <br>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    <br>
+                    <label for="sexo">Sexo:</label>
+                    <br>
+                    <input type="radio" value="sexo" name="sexo">
+                    <span>Masculino</span>
+                    <input type="radio" value="sexo" name="sexo">
+                    <span>Feminino</span>
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                    <br>
+                    <br>
+                    <select name="tamanhos">
+                        <option value="G">Grande</option>
+                        <option value="M">Médio</option>
+                        <option value="P">Pequeno</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="checkbox" name="acepta" value="1">
+                    <label for="termos">Aceita termos e condições</label>
+            </fieldset>
+        </form>
+</body>
+</html>
